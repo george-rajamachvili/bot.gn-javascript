@@ -1,0 +1,21 @@
+{
+  "name": "bot.gn",
+  "version": "0.0.1",
+  "description": "bot.gn is a bot that is meant to function on the server '.gn'. The current intent is for it to function as a music bot to replace public music bots, which have been C&D'd by Google, and for it to function for administrative purposes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "George Rajamachvili",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.1.0",
+    "ffmpeg": "^0.0.4"
+  }
+}
